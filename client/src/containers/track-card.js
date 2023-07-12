@@ -28,6 +28,8 @@ const INCREMENT_TRACK_VIEWS = gql`
  */
 
 const TrackCard = ({ track }) => {
+  const { title, thumbnail, author, length, modulesCount, id } = track;
+
   const [incrementTrackViews] = useMutation(INCREMENT_TRACK_VIEWS, {
     variables: { incrementTrackViewsId: id },
     // to observe what the mutation response returns
@@ -35,8 +37,7 @@ const TrackCard = ({ track }) => {
     console.log(data);
   },
   });
-  const { title, thumbnail, author, length, modulesCount, id } = track;
-
+ 
   return (
     <CardContainer to={`/track/${id}`} onClick={incrementTrackViews}>
       <CardContent>
