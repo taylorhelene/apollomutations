@@ -20,7 +20,7 @@ const Header = ({ children }) => {
               </LogoContainer>
               <Title>
                 <h3>Catstronaut</h3>
-                <div>Kitty space academy</div>
+                <div>Chemtai space academy for kittens</div>
               </Title>
             </HomeButton>
           </HomeLink>
