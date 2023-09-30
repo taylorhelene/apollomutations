@@ -1,12 +1,15 @@
-# Odyssey Lift-off IV: Mutations
+# This is a project I did as part of the Apollo GrapQL Course
 
-Welcome to the companion app of Odyssey Lift-off IV! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part4), Apollo's learning platform.
+I have hosted it on render:
 
-You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
+Here are the links for:
 
-## How to use this repo
+1. Frontend - https://trial-azpj.onrender.com
+2. Server - https://server-80vk.onrender.com
 
-The course will walk you step by step on how to implement the features you see in the demo app. This codebase is the starting point of your journey!
+## How the course was done
+
+The codebase for the Front-end was partly provided by Apollo!
 
 There are 3 main folders:
 
@@ -30,6 +33,3 @@ In another Terminal window,
 
 This will open up `localhost:3000` in your web browser.
 
-## Getting Help
-
-For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).

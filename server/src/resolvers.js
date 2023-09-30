@@ -7,6 +7,7 @@ const resolvers = {
 
     // get a single track by ID, for the track page
     track: (_, { id }, { dataSources }) => {
+      console.log(dataSources.trackAPI.getTrack(id));
       return dataSources.trackAPI.getTrack(id);
     },
 
